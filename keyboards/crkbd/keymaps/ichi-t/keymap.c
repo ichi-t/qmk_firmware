@@ -85,11 +85,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_RAISE] = LAYOUT_kc( \
   //,-----------------------------------------.                ,-----------------------------------------.
-        GRV,     1,     2,     3,     4,     5,                      6,     7,     8,     9,     0,  BSPC,\
+        GRV,     1,     2,     3,     4,     5,                      6,     7,     8,     9,     0,   DEL,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
       CTLTB, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                   MINS,  MINS,   EQL,  LBRC,  RBRC,  BSLS,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-        ESC, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX,  LEFT,  DOWN,    UP,  RGHT,  ALTGR,\
+        ESC, XXXXX,  COMM,   DOT,  SLSH, XXXXX,                  XXXXX,  LEFT,  DOWN,    UP,  RGHT,  ALTGR,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                   GUIEI, LOWER,   SPC,      SPC, RAISE, ALTKN \
                               //`--------------------'  `--------------------'
